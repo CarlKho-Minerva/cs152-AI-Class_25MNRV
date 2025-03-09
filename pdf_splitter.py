@@ -42,7 +42,7 @@ if __name__ == "__main__":
     # Call the pdf_splitter function directly with your desired parameters
     input_pdf = "ai.pdf"
     output_pdf = "ai_extracted.pdf"
-    start_page = 1
-    end_page = 5
+    start_page = 490
+    end_page = 516
 
     pdf_splitter(input_pdf, output_pdf, start_page, end_page)
